@@ -1,78 +1,105 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9; 
-    color: #333; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: olivedrab;
+    color: black;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50; 
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav {
-    background-color: #333; 
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
+    background-color: olivedrab;
+    color: black;
+    margin: 0;
     padding: 0;
 }
 
+nav {
+    background-color: black;
+    padding: 15px;
+}
+
+nav ul {
+list-style: circle;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 200%;
+    text-decoration: double;
+    font-weight: bolder;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 20 px;
+    transition:all 0.3s;
+}
+
+nav a :hover {
+    transform: scale(1.2);
 }
 
 article {
-    padding: 20px;
     background-color: white;
-    margin: 20px;
+    padding: 30px;
+    margin: 35px auto;
+    width: 65%;
+    border-left: 8px solid;
+    line-height: 2.0;    
 }
 
 h2 {
-    color: #4CAF50; 
+    color: auto;
+    text-align: center;
+    text-decoration: double;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 60%;
     display: block;
-    margin: 10px 0;
+    margin: 20px auto;
+    border: 3px solid;
+    border-radius: 20px;
 }
 
 aside {
-    padding: 20px;  
-    background-color: #f2f2f2; 
-    margin: 20px;
+    padding: 15px;
+    background-color: olivedrab;
+    margin: 10px auto;
+    width: 60%;
+    border: 2px dashed;
 }
 
 table {
-    width: 100%;
-    border: 1px solid #ccc; 
-    border-collapse: collapse;
+    width: auto;
+    border-collapse: separate;
+    margin-top: 30px;
 }
 
-th, td {
+th td {
     padding: 10px;
-    border: 1px solid #ccc;
-    text-align: left;
+    border: 2px solid;
+    text-align: center;
+}
+
+th {
+    background-color: olivedrab;
+    color: black;
 }
 
 footer {
-    background-color: #333; 
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    background-color: white;
+    /* color: aqua; */
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 5px solid;
+    font-size: medium;
 }
