@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
  
 html, body {
@@ -10,14 +11,22 @@ body {
     margin: 0;
     display: grid;
     grid: auto / 20% 1fr;
+    font-family: "Roboto", sans-serif;
 }
  
-/* aside { */
-     /* background-color: darkgreen;  */
-/* } */
+aside {
+     background-color: blue;
+    position: relative;
+}
+ 
+.aside-wrapper {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+}
  
 .aside-profile {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 40%;
     display: flex;
     justify-content: center;
@@ -33,7 +42,7 @@ body {
 }
  
 .menu {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -41,18 +50,30 @@ body {
 }
  
 .menu li {
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     margin-bottom: 40px;
 }
  
+.border {
+border-top: 3px solid #fff;
+border-bottom: 3px solid #fff;
+padding: 16px 24px;
+}
+ 
 .menu li a {
-    background-color: gold;
+    /* background-color: gold; */
     font-size: 50px;
     color: white;
     text-decoration: none;
 }
  
-main {
-    background-color: brown;
+/* main { */
+    /* background-color: brown; */
+/* } */
+ 
+section {
+    /* background-image: linear-gradient(45deg, white, black); */
+    min-height: 100vh;
+    padding: 24px;
 }

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +11,23 @@
 </head>
 <body>
     <aside>
+        <div class="aside-wrapper">
         <div class="aside-profile">
             <img src="car-solid.svg">
         </div>
         <ul class="menu">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+            <li><a href="#first">Link 1</a></li>
+            <li><a class="border" href="#second">Link 2</a></li>
+            <li><a href="#third">Link 3</a></li>
         </ul>
+    </div>
     </aside>
     <main>
-        <section>
+        <section id="first">
             <h1>Rubrik</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora amet aliquam asperiores doloribus aperiam eius pariatur, error esse blanditiis laudantium possimus deserunt minus ullam libero praesentium unde quis. Unde, eos.</p>
         </section>
-        <section>
+        <section id="second">
             <h1>Rubrik</h1>
             <div class="img">
                 <img src="https://unsplash.it/350">
@@ -30,9 +35,10 @@
                 <img src="https://unsplash.it/350">
             </div>
         </section>
-        <section>
+        <section id="third">
             <h1>Rubrik</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque odio quam pariatur impedit doloribus sequi iste nesciunt suscipit magnam exercitationem numquam mollitia rem ratione deserunt totam vero dolores, asperiores laborum!</p>
         </section>
     </main>
 </body>
+</html>
