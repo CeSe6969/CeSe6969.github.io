@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #004d80;
+    background-color: #4ba9bd    ;
     padding: 20px 0;
 }
 
@@ -27,7 +27,12 @@ header .container {
 
 .container a{
     text-decoration: none;
-    color: aqua;
+    color: rgb(255, 255, 255);
+}
+.container img
+{
+    width: 50px;
+    height: auto;
 }
 
 header h1 {
@@ -81,10 +86,11 @@ header nav ul li a:hover {
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
 }
 
 footer {
-    background-color: #004d80;
+    background-color: #4ba9bd;
     color: white;
     padding: 20px 0;
 }
@@ -138,4 +144,104 @@ footer ul.social li a:hover {
 .featuredbook
 {
 padding: 0%;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.text
+{
+margin-left: 10px;
+}
+
+.intro .Text2
+{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00796b;  
+}
+
+.image-text-section {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    margin-left: -110px;
+}
+
+.text-container {
+    flex: 2;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #4ba9bd;
+    font-weight: 500;
+}
+.Större-Texten
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Mega-text
+{
+    font-size: xx-large;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: -30px;
+    background-color: #4ba9bd;
+    padding: 0;
+    border-radius: 15px;
+    min-width: 250px;
+}
+
+
+nav ul li ul.dropdown li {
+    margin: 0;
+}
+
+nav ul li ul.dropdown li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li ul.dropdown li a:hover {
+    background-color: #00796b;
+}
+
+nav ul li:hover > ul.dropdown {
+    display: block;
 }
