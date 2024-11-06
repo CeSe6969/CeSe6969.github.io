@@ -197,6 +197,16 @@ margin-left: 10px;
 {
     font-size: 20px;
     font-weight: 700;
+    color: #4ba9bd;
+}
+.studora-link 
+{
+    color: inherit;
+    text-decoration: solid;
+}
+.studora-link:hover
+{
+    text-decoration: underline;
 }
 .Mega-text
 {
