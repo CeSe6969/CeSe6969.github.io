@@ -19,10 +19,7 @@
             "Sponsor3": "Sponsor3",
             "Image": "Image",
             "Firsttext": "Welcome to Groundwater.se!",
-            "Text1": "Groundwater.se is a digital book primarily aimed at students interested in hydrogeology and professionals working with water issues within municipalities, authorities or companies dealing with water, environmental or engineering issues. The book summarises the current state of basic knowledge in the field of groundwater and can be read by anyone interested in groundwater. The starting point is Swedish conditions but with a global outlook. 
-Hydrogeology, i.e. groundwater science, is the study of water underground and its interaction with other water, air, soil, rock, living organisms and plants. 
-Groundwater is not directly visible, as is the case with surface water in lakes and streams, which means that its behaviour and properties can be difficult to grasp. This book makes the invisible groundwater visible and provides a better understanding of the subject and its complexity. 
-Groundwater.se provides an insight into the history of hydrogeology, basic processes and concepts, groundwater bodies in Sweden, water chemistry and microorganisms, investigation and evaluation methods, geological and numerical models, water treatment, legislation and examples of hydrogeological problems in society.",
+            "Text1": "Groundwater.se is a digital book primarily aimed at students interested in hydrogeology and professionals working with water issues within municipalities, authorities or companies dealing with water, environmental or engineering issues. The book summarises the current state of basic knowledge in the field of groundwater and can be read by anyone interested in groundwater. The starting point is Swedish conditions but with a global outlook. Hydrogeology, i.e. groundwater science, is the study of water underground and its interaction with other water, air, soil, rock, living organisms and plants. Groundwater is not directly visible, as is the case with surface water in lakes and streams, which means that its behaviour and properties can be difficult to grasp. This book makes the invisible groundwater visible and provides a better understanding of the subject and its complexity. Groundwater.se provides an insight into the history of hydrogeology, basic processes and concepts, groundwater bodies in Sweden, water chemistry and microorganisms, investigation and evaluation methods, geological and numerical models, water treatment, legislation and examples of hydrogeological problems in society.",
             "Störretext": "Störretexten",
             "Studora": "Warm welcome to subscribe on the Studora platform!",
             "Rubrik2": "Welcome to Groundwater.se!",
@@ -35,7 +32,8 @@ Groundwater.se provides an insight into the history of hydrogeology, basic proce
         "swedish": {
             "heading": "Välkommen till webbplatsen",
             "text": "Text på svenska",
-            "test": "Svenska Test"
+            "test": "Svenska Test",
+            "firsttext": "text på svenska"
         }
     }
   }

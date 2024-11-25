@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    transition: ease-in-out 500ms;
+
 }
+
 
 body {
     font-family: Arial, sans-serif;
@@ -80,7 +83,9 @@ body {
 }
 
 .test {
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    
 
 }
 
@@ -93,6 +98,10 @@ body {
     background-color: #2A2A2A;
     overflow: hidden;
     transform: width o.3s ease;
+    background-image: url("Skärmbild\ 2024-11-18\ 114935.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sidebar:hover{
@@ -113,17 +122,18 @@ body {
 .sidebar ul li{
     position: relative;
     margin: 15px 0;
-    height: 80px;
+    /* height: 80px; */
     background-size: cover;
     background-position: center;
     transition: all 0.3s ease;
 }
 
-.sidebar ul li a{
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    left: 1opx;
+.sidebar ul li div a{
+    position: absolute; 
+    /* bottom: 10px;  */
+    top: 100%;
+    /* left: 10px;  */
+    /* left: 10px;  */
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -131,13 +141,29 @@ body {
     opacity: 1;
     transition: opacity 0.3s ease;
     z-index: 10;
+    background-color
 }
 
-.sidebar ul li:hover a{
-    opacity: 0;
+
+
+.testklick {
+    /* background-color: red; */
 }
 
-.sidebar ul li:hover{
-    height: 150px;
+.testklick a{
+    background-color:;
 }
 
+.test{
+    /* background-color:purple ; */
+}
+
+.sidebar ul {
+    /* background-color: green; */
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      display: none;
+    }
+  } */

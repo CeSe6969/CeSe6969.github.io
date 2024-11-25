@@ -15,8 +15,11 @@
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
 
+  
+
   document.addEventListener('DOMContentLoaded', () => {
-      const rubrik = document.getElementById('Rubrik')
+      
+    const rubrik = document.getElementById('Rubrik')
       const hem = document.getElementById('Hem')
       const drop1 = document.getElementById('Drop1')
       const drop2 = document.getElementById('Drop2')
@@ -25,7 +28,7 @@
       const over = document.getElementById('Over')
       const detail = document.getElementById('Detail')
       const history = document.getElementById('History')
-      const Svenska = document.getElementById('Svenska')
+      var svenska = document.getElementById('svenska')
       const english = document.getElementById('English')
       const authors = document.getElementById('Authors')
       const sponsor = document.getElementById('Sponsor')
@@ -45,32 +48,24 @@
       const rättigheter = document.getElementById('Rättigheter')
       const heading = document.getElementById('heading');
       const text = document.getElementById('text');
-      const swedishBtn = document.getElementById('swedishBtn');
-      const englishBtn = document.getElementById('englishBtn');
+
+
   
-      fetch('language.json')
+      fetch('settings.json')
           .then(response => response.json())
           .then(data => {
-              // Set initial heading to Swedish
-              heading.textContent = data.languages.swedish.heading;
-              text.textContent = data.languages.swedish.text;
-              
-              for(i = 0; i < test.length; i++){
-                  test[i].textContent = data.languages.swedish.test;
-              }
   
               // Add event listeners to buttons
-              swedishBtn.addEventListener('click', () => {
-                  heading.textContent = data.languages.swedish.heading;
-                  text.textContent = data.languages.swedish.text;
-                  
-                  for(i = 0; i < test.length; i++){
-                      test[i].textContent = data.languages.swedish.test;
-                  }
+              svenska.addEventListener('click', () => {
+              firsttext.textContent = data.languages.swedish.firsttext
+              
+
+            
+                
   
               });
   
-              englishBtn.addEventListener('click', () => {
+              english.addEventListener('click', () => {
                   heading.textContent = data.languages.english.heading;
                   text.textContent = data.languages.english.text;
                   
@@ -83,6 +78,5 @@
               
           })
           .catch(error => console.error('Error fetching data:', error));
-  });
   
-  
+        });
