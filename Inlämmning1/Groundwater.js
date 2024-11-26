@@ -57,6 +57,7 @@
               // Add event listeners to buttons
               svenska.addEventListener('click', () => {
               firsttext.textContent = data.languages.swedish.firsttext
+              drop1.textContent = data.languages.swedish.drop1
               
               
 
