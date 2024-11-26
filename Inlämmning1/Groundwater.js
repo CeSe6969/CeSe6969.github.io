@@ -46,7 +46,6 @@
       const stortext = document.getElementById('Stortext')
       const Länk2 = document.getElementById('Länk2')
       const rättigheter = document.getElementById('Rättigheter')
-      const heading = document.getElementById('heading');
       const text = document.getElementById('text');
 
 
@@ -58,6 +57,7 @@
               // Add event listeners to buttons
               svenska.addEventListener('click', () => {
               firsttext.textContent = data.languages.swedish.firsttext
+              
               
 
             

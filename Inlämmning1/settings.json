@@ -30,10 +30,30 @@
             "Rättigheter": "© 2024 Groundwater.se All rights reserved."
             },
         "swedish": {
-            "heading": "Välkommen till webbplatsen",
-            "text": "Text på svenska",
-            "test": "Svenska Test",
-            "firsttext": "text på svenska"
-        }
+      "firsttext": "Välkommen till Groundwater.se!",
+      "item": "Text på svenska",
+      "Test": "Svenska Test",
+      "Drop1": "Underflik 1",
+      "Drop2": "Underflik 2",
+      "Over": "Om Groundwater.se",
+      "Detail": "Detaljer",
+      "History": "Historia",
+      "Svenska": "Svenska",
+      "English": "Engelska",
+      "Authors": "Författare",
+      "Sponsor1": "Sponsor1",
+      "Sponsor2": "Sponsor2",
+      "Sponsor3": "Sponsor3",
+      "Image": "Bild",
+      "text1": "Groundwater.se är en digital bok som främst riktar sig till studenter intresserade av hydrogeologi och yrkesverksamma som arbetar med vattenresurser.",
+      "störretext": "Den större texten",
+      "studora": "Varmt välkommen att prenumerera på Studora-plattformen!",
+      "Rubrik2": "Välkommen till Groundwater.se!",
+      "Förstå": "Förstå Groundwater",
+      "exten": "En viktig bok för att förstå grundvattnets variationer.",
+      "störtext": "Grundvatten är vattnet som finns i sprickor och utrymmen i jord, sand och sten. Det lagras och rör sig långsamt genom geologiska formationer av jord, sand och sten.",
+      "Länk2": "Beställ boken här",
+      "Rättigheter": "© 2024 Groundwater.se Alla rättigheter förbehållna."
     }
-  }
+ }
+   }
