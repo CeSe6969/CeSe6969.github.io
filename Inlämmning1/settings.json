@@ -31,8 +31,8 @@
             },
         "swedish": {
       "firsttext": "Välkommen till Groundwater.se!",
-      "Drop1": "Underflik 1",
-      "Drop2": "Underflik 2",
+      "drop1": "Underflik 1",
+      "drop2": "Underflik 2",
       "Over": "Om Groundwater.se",
       "Detail": "Detaljer",
       "History": "Historia",
