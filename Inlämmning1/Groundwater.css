@@ -14,7 +14,7 @@ body {
 header {
     background-color: #4ba9bd    ;
     padding: 20px 0;
-}
+    }
 
 header .container {
     display: flex;
@@ -40,7 +40,7 @@ header h1 {
 }
 
 header nav ul {
-    display: flex;
+    display:flex;
     list-style: none;
 }
 

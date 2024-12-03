@@ -58,8 +58,24 @@
               svenska.addEventListener('click', () => {
               firsttext.textContent = data.languages.swedish.firsttext
               drop1.textContent = data.languages.swedish.drop1
-              
-              
+              drop2.textContent = data.languages.swedish.drop2
+              over.textContent = data.languages.swedish.over
+              detail.textContent = data.languages.swedish.detail
+              history.textContent = data.languages.swedish.history
+              svenska.textContent = data.languages.swedish.svenska
+              english.textContent = data.languages.swedish.english
+              authors.textContent = data.languages.swedish.authors
+              sponsor1.textContent = data.languages.swedish.sponsor1
+              sponsor2.textContent = data.languages.swedish.sponsor2
+              sponsor3.textContent = data.languages.swedish.sponsor3
+              text1.textContent = data.languages.swedish.text1
+              störretext.textContent = data.languages.swedish.störretext
+              studora.textContent = data.languages.swedish.studora
+              rubrik2.textContent = data.languages.swedish.rubrik2
+              förstå.textContent = data.languages.swedish.förstå
+              texten.textContent = data.languages.swedish.texten
+              Länk2.textContent = data.languages.swedish.Länk2
+              rättigheter.textContent = data.languages.swedish.rättigheter
 
             
                 
