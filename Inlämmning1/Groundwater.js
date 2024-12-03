@@ -35,7 +35,6 @@
       const sponsor1 = document.getElementById('Sponsor1')
       const sponsor2 = document.getElementById('Sponsor2')
       const sponsor3 = document.getElementById('Sponsor3')
-      const image = document.getElementById('Image')
       const firsttext = document.getElementById('Firsttext')
       const text1 = document.getElementById('Text1')
       const störretext = document.getElementById('Störretext')
@@ -46,7 +45,6 @@
       const stortext = document.getElementById('Stortext')
       const Länk2 = document.getElementById('Länk2')
       const rättigheter = document.getElementById('Rättigheter')
-      const text = document.getElementById('text');
 
 
   
@@ -59,16 +57,19 @@
               firsttext.textContent = data.languages.swedish.firsttext
               drop1.textContent = data.languages.swedish.drop1
               drop2.textContent = data.languages.swedish.drop2
+              drop3.textContent = data.languages.swedish.drop3
               over.textContent = data.languages.swedish.over
               detail.textContent = data.languages.swedish.detail
               history.textContent = data.languages.swedish.history
-              svenska.textContent = data.languages.swedish.svenska
               english.textContent = data.languages.swedish.english
               authors.textContent = data.languages.swedish.authors
+              om.textContent = data.languages.swedish.om
+              sponsor.textContent = data.languages.swedish.sponsor
               sponsor1.textContent = data.languages.swedish.sponsor1
               sponsor2.textContent = data.languages.swedish.sponsor2
               sponsor3.textContent = data.languages.swedish.sponsor3
               text1.textContent = data.languages.swedish.text1
+              stortext.textContent = data.languages.swedish.stortext
               störretext.textContent = data.languages.swedish.störretext
               studora.textContent = data.languages.swedish.studora
               rubrik2.textContent = data.languages.swedish.rubrik2
@@ -83,12 +84,29 @@
               });
   
               english.addEventListener('click', () => {
-                  heading.textContent = data.languages.english.heading;
-                  text.textContent = data.languages.english.text;
+                firsttext.textContent = data.languages.english.firsttext
+                drop1.textContent = data.languages.english.drop1
+                drop2.textContent = data.languages.english.drop2
+                over.textContent = data.languages.english.over
+                detail.textContent = data.languages.english.detail
+                history.textContent = data.languages.english.history
+                svenska.textContent = data.languages.english.svenska
+                english.textContent = data.languages.english.english
+                authors.textContent = data.languages.english.authors
+                sponsor1.textContent = data.languages.english.sponsor1
+                sponsor2.textContent = data.languages.english.sponsor2
+                sponsor3.textContent = data.languages.english.sponsor3
+                text1.textContent = data.languages.english.text1
+                störretext.textContent = data.languages.english.störretext
+                studora.textContent = data.languages.english.studora
+                rubrik2.textContent = data.languages.english.rubrik2
+                förstå.textContent = data.languages.english.förstå
+                texten.textContent = data.languages.english.texten
+                Länk2.textContent = data.languages.english.Länk2
+                rättigheter.textContent = data.languages.english.rättigheter
                   
-                  for(i = 0; i < test.length; i++){
-                      test[i].textContent = data.languages.english.test;
-                  }
+        
+                  
   
               });
   
