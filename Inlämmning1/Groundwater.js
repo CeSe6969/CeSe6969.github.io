@@ -40,7 +40,6 @@
       const störretext = document.getElementById('Störretext')
 
       const hej = document.querySelector('.minklass')
-      const 
 
       const studora = document.getElementById('Studora')
       const rubrik2 = document.getElementById('Rubrik2')
