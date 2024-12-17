@@ -37,7 +37,7 @@
       const sponsor3 = document.getElementById('Sponsor3')
       const firsttext = document.getElementById('Firsttext')
       const text1 = document.getElementById('Text1')
-      const störretext = document.getElementById('Störretext')
+      // const störretext = document.getElementById('Störretext')
 
       const hej = document.querySelector('.minklass')
 
@@ -73,7 +73,7 @@
               sponsor3.textContent = data.languages.swedish.sponsor3
               text1.textContent = data.languages.swedish.text1
               stortext.textContent = data.languages.swedish.stortext
-              hej.textContent = data.languages.swedish.störretext
+              // hej.textContent = data.languages.swedish.störretext
               // störretext.textContent = data.languages.swedish.störretext
               studora.textContent = data.languages.swedish.studora
               rubrik2.textContent = data.languages.swedish.rubrik2
@@ -102,7 +102,7 @@
                 sponsor2.textContent = data.languages.english.sponsor2
                 sponsor3.textContent = data.languages.english.sponsor3
                 text1.textContent = data.languages.english.text1
-                störretext.textContent = data.languages.english.störretext
+                // störretext.textContent = data.languages.english.störretext
                 studora.textContent = data.languages.english.studora
                 rubrik2.textContent = data.languages.english.rubrik2
                 förstå.textContent = data.languages.english.förstå

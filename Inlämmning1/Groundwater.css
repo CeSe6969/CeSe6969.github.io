@@ -255,3 +255,8 @@ nav ul li ul.dropdown li a:hover {
 nav ul li:hover > ul.dropdown {
     display: block;
 }
+
+
+li:nth-of-type(6) {
+    min-width: 10ch;
+}
