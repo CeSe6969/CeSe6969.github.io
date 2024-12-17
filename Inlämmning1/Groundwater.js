@@ -1,19 +1,19 @@
   // Scroll to Top Button
-  window.onscroll = function() {scrollFunction()};
+  // window.onscroll = function() {scrollFunction()};
     
-  function scrollFunction() {
-      const scrollButton = document.getElementById("scrollBtn");
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          scrollButton.style.display = "block";
-      } else {
-          scrollButton.style.display = "none";
-      }
-  }
+  // function scrollFunction() {
+  //     const scrollButton = document.getElementById("scrollBtn");
+  //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  //         scrollButton.style.display = "block";
+  //     } else {
+  //         scrollButton.style.display = "none";
+  //     }
+  // }
   
-  function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
+  // function topFunction() {
+  //     document.body.scrollTop = 0; // For Safari
+  //     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  // }
 
   
 
@@ -38,12 +38,16 @@
       const firsttext = document.getElementById('Firsttext')
       const text1 = document.getElementById('Text1')
       const störretext = document.getElementById('Störretext')
+
+      const hej = document.querySelector('.minklass')
+      const 
+
       const studora = document.getElementById('Studora')
       const rubrik2 = document.getElementById('Rubrik2')
       const förstå = document.getElementById('Förstå')
       const texten = document.getElementById('Texten')
       const stortext = document.getElementById('Stortext')
-      const Länk2 = document.getElementById('Länk2')
+      const länk2 = document.getElementById('Länk2')
       const rättigheter = document.getElementById('Rättigheter')
 
 
@@ -70,13 +74,15 @@
               sponsor3.textContent = data.languages.swedish.sponsor3
               text1.textContent = data.languages.swedish.text1
               stortext.textContent = data.languages.swedish.stortext
-              störretext.textContent = data.languages.swedish.störretext
+              hej.textContent = data.languages.swedish.störretext
+              // störretext.textContent = data.languages.swedish.störretext
               studora.textContent = data.languages.swedish.studora
               rubrik2.textContent = data.languages.swedish.rubrik2
               förstå.textContent = data.languages.swedish.förstå
               texten.textContent = data.languages.swedish.texten
-              Länk2.textContent = data.languages.swedish.Länk2
+              länk2.textContent = data.languages.swedish.länk2
               rättigheter.textContent = data.languages.swedish.rättigheter
+
 
             
                 
